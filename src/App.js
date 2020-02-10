@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Posts from './components/Posts';
+import PostsForm  from './components/PostsForm';
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
 
       <h1 className='App-title'>Welcome To React</h1>
         </header>
-    <Posts/>;
+        <PostsForm/>
+        <hr/>
+        <Posts/>;
 
     </div>
   );
